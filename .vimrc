@@ -3,14 +3,7 @@ execute pathogen#infect()
 let g:netrw_banner = 0
 let g:CommandTAcceptSelectionCommand = 'CommandTOpen tabe'
 
-map <silent> w <Plug>CamelCaseMotion_w
-map <silent> b <Plug>CamelCaseMotion_b
-map <silent> e <Plug>CamelCaseMotion_e
-map <silent> ge <Plug>CamelCaseMotion_ge
-sunmap w
-sunmap b
-sunmap e
-sunmap ge
+map <silent> <S-w> <Plug>CamelCaseMotion_w
 
 set nu
 set tabstop=2
