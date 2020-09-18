@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+set encoding=utf-8
+
 let g:netrw_banner = 0
 
 let g:ctrlp_prompt_mappings = {
