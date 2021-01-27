@@ -26,6 +26,7 @@ filetype plugin indent on
 set backspace=indent,eol,start
 set updatetime=100
 set splitright
+set completeopt-=preview
 
 map <Tab> :tabnext<CR>
 map <S-Tab> :tabprev<CR>
