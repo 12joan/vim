@@ -27,6 +27,9 @@ set backspace=indent,eol,start
 set updatetime=100
 set splitright
 set completeopt-=preview
+set background=dark
+set mouse=nvi
+set ttymouse=xterm
 
 map <Tab> :tabnext<CR>
 map <S-Tab> :tabprev<CR>
