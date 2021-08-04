@@ -17,6 +17,7 @@ endif
 map <silent> <S-w> <Plug>CamelCaseMotion_w
 
 set nu
+set rnu
 set tabstop=2
 set shiftwidth=2
 set expandtab
